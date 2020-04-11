@@ -15,7 +15,14 @@
 3.  git commit 提交到本地库
 4.  git push origin master 提交到远程仓库
 
+## 触摸板
 
+终端输入如下命令： 
+
+sudo modprobe -r psmouse
+
+如果打开触摸板就是：
+sudo modprobe psmouse
 
 ## 虚拟环境
 
